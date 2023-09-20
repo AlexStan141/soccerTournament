@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/soccerTournament/static/css/main.7acaea2f.css",
+    "main.js": "/soccerTournament/static/js/main.07d3183d.js",
+    "index.html": "/soccerTournament/index.html",
+    "main.7acaea2f.css.map": "/soccerTournament/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/soccerTournament/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
