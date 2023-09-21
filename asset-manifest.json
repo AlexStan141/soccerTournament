@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/soccerTournament/static/css/main.7bc2ea5e.css",
-    "main.js": "/soccerTournament/static/js/main.3c0f5da2.js",
+    "main.css": "/soccerTournament/static/css/main.2da8b6b3.css",
+    "main.js": "/soccerTournament/static/js/main.1dd7e9b2.js",
+    "static/media/SoccerStadium.jpg": "/soccerTournament/static/media/SoccerStadium.54a66a8c7973ff23c4d6.jpg",
     "static/media/Team2.avif": "/soccerTournament/static/media/Team2.2dfaac7151a47c91c2fe.avif",
     "index.html": "/soccerTournament/index.html",
-    "main.7bc2ea5e.css.map": "/soccerTournament/static/css/main.7bc2ea5e.css.map",
-    "main.3c0f5da2.js.map": "/soccerTournament/static/js/main.3c0f5da2.js.map"
+    "main.2da8b6b3.css.map": "/soccerTournament/static/css/main.2da8b6b3.css.map",
+    "main.1dd7e9b2.js.map": "/soccerTournament/static/js/main.1dd7e9b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bc2ea5e.css",
-    "static/js/main.3c0f5da2.js"
+    "static/css/main.2da8b6b3.css",
+    "static/js/main.1dd7e9b2.js"
   ]
 }
