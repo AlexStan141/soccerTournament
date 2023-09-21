@@ -1,0 +1,16 @@
+.info {
+    position: absolute;
+    top: 20px;
+    left: 575px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: white;
+    font-size: 25px;
+    background-color: blue;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    line-height: 0;
+}

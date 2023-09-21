@@ -1,0 +1,18 @@
+.scoreBoardComponent {
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.scoreBoard {
+    width: 400px;
+}
+
+.line {
+    width: 400px;
+    height: 10px;
+    background-color: white;
+    margin: 10px auto;
+}
