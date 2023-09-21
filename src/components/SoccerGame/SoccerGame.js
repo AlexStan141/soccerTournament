@@ -5,11 +5,6 @@ import secondTeamImage from '../../assets/Team2.avif';
 import ScoreBoard from 'components/ScoreBoard/ScoreBoard';
 import Timer from 'components/Timer/Timer';
 
-const ROUNDS_STATE = {
-  minutes: 1,
-  seconds: 30,
-};
-
 export default class SoccerGame extends Component {
   constructor(props) {
     super(props);
@@ -59,7 +54,7 @@ export default class SoccerGame extends Component {
   render() {
     return (
       <div class={css.board}>
-        <img src={firstTeamImage} width="200" height="200"></img>
+        <img src={firstTeamImage} alt="First Team Logo" width="200" height="200"></img>
         <Timer
           minutes={this.state.minutes}
           seconds={this.state.seconds}
@@ -72,7 +67,7 @@ export default class SoccerGame extends Component {
           firstTeamSecondRoundScore={this.state.firstTeamSecondRoundScore}
           secondTeamSecondRoundScore={this.state.secondTeamSecondRoundScore}
         ></ScoreBoard>
-        <img src={secondTeamImage} width="200" height="200"></img>
+        <img src={secondTeamImage} alt="Second Team Logo" width="200" height="200"></img>
       </div>
     );
   }
