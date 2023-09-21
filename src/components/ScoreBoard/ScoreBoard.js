@@ -21,9 +21,13 @@ export default class ScoreBoard extends Component {
         </div>
         <div class={css.line}></div>
         <div class={css.scoreBoardComponent}>
-          <span>{s11 + s21}</span>
+          <span>
+            {this.props.firstTeamGoldenGoal ? s11 + s21 + 1 : s11 + s21}
+          </span>
           <span>TOTAL</span>
-          <span>{s12 + s22}</span>
+          <span>
+            {this.props.secondTeamGoldenGoal ? s12 + s22 + 1 : s12 + s22}
+          </span>
         </div>
       </div>
     );
